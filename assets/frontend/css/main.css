@@ -138,7 +138,7 @@ header .heading .container .nav li a{
 
 .background_content-header-img {
     max-width: 892px;
-    margin:40px auto 16px auto;
+    margin:100px auto 16px auto;
     /* margin-top: -60px; */
 }
 .background_content-header-img img{
@@ -1093,8 +1093,8 @@ header .heading .container .nav li a{
     display: none;
 }
 .company_category{
-
-
+    display: none;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
@@ -1171,7 +1171,7 @@ header .heading .container .nav li a{
         display: block;
     }
     .background_content-header-img {
-        margin: 40px auto 16px auto;
+        margin: 70px auto 16px auto;
     }
     .ads_1_content_out{
         width: 100%;
@@ -1196,15 +1196,34 @@ header .heading .container .nav li a{
         margin-top: 56px;
     }
 }
-
+.global_about_img_mobile{
+    display: none;
+}
+.global_about_img_mobile img{
+    width: 100%;
+}
 @media only screen  and (max-width: 992px) {
+    .activity_line {
+
+        margin: 10px auto 16px;
+    }
+    .hqesport_orientation_title p:first-child {
+        margin-bottom: 6px !important;
+    }
+
+    .global_about_img{
+        display: none;
+    }
+    .global_about_img_mobile{
+        display: block;
+    }
     .globalent_bg p:first-child {
         font-size: 18px;
 
     }
     .hub-js_achievement_content_in p:first-child{
         font-size: 13px;
-        font-weight: 500;
+        font-weight: 600;
         color: #000000;
     }
     .globalent_bg p {
@@ -1471,11 +1490,11 @@ header .heading .container .nav li a{
     .ikonix_achievement,.ikonix_kol{
         margin-top: 32px;
     }
-    .ads_2 p:first-child {
+    /*.ads_2 p:first-child {*/
 
-        width: 100%;
+    /*    width: 100%;*/
 
-    }
+    /*}*/
 
     /*hub js*/
     .hub-js {
@@ -1580,7 +1599,7 @@ header .heading .container .nav li a{
         text-align: center;
     }
     .global_orientation_line{
-        margin: 0 auto 20px auto ;
+        margin: 0 auto 14px auto ;
 
     }
 
@@ -1593,6 +1612,7 @@ header .heading .container .nav li a{
     }
     .hqesport_orientation_line {
         width: 60px;
+        margin-bottom: 10px;
 
     }
     .hqesport_orientation_title p {
