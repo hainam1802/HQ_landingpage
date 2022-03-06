@@ -1203,6 +1203,9 @@ header .heading .container .nav li a{
     width: 100%;
 }
 @media only screen  and (max-width: 992px) {
+    .ikonix_partner_img img {
+        height: 80px;
+    }
     .activity_line {
 
         margin: 10px auto 16px;
