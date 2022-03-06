@@ -64,13 +64,13 @@ body {
     letter-spacing: 0.2px;
 }
 /*swiper pagination*/
-.swiper-pagination{
-    margin: auto;
-    justify-content: center;
-    left: 50%;
-    transform: translateX(-50%);
-    /* top: 20px; */
-    margin-top: 20px;
+.swiper-pagination,.swiper-paginationxcrcorp,.swiper-paginationesport,.swiper-paginationhqpay,.swiper-paginationhubjs,.swiper-pagination2, .swiper-pagination1,.swiper-paginationhubjscustom{
+    /*margin: auto;*/
+    /*justify-content: center;*/
+    /*left: 50%;*/
+    /*transform: translateX(-50%) !important;*/
+    /*!* top: 20px; *!*/
+    margin-top: 30px;
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
@@ -138,7 +138,7 @@ header .heading .container .nav li a{
 
 .background_content-header-img {
     max-width: 892px;
-    margin:140px auto 16px auto;
+    margin:40px auto 16px auto;
     /* margin-top: -60px; */
 }
 .background_content-header-img img{
@@ -151,17 +151,18 @@ header .heading .container .nav li a{
 /*.nav_destop{*/
 /*    display: block;*/
 /*}*/
-.ikonix_partner_img{
-    height: 100px;
+/*.ikonix_partner_img{*/
+/*    height: 100px;*/
+/*}*/
+/*.ikonix_kol_content_slide_detail_in img{*/
+/*    width: 100%;*/
+/*    object-fit: cover;*/
+/*    height: 100%;*/
+/*}*/
+.logo{
+    margin-top: -20px;
 }
-.ikonix_kol_content_slide_detail_in img{
-    width: 100%;
-    object-fit: cover;
-    height: 100%;
-}
-.logo a img{
-    width: 56px;
-}
+
 @media only screen  and (min-width: 768px) and (max-width: 1460px) {
     .background_content-header-content {
         width: 50%;
@@ -436,7 +437,7 @@ header .heading .container .nav li a{
     padding: 16px;
 }
 .member_company_content img{
-    padding-top: 72px;
+    padding-top: 60px;
 }
 .member_company_content_hover{
     background: white;
@@ -652,6 +653,27 @@ header .heading .container .nav li a{
     text-align: center;
     margin: auto;
 }
+.hub-js_achievement_content_in p:first-child{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 4px;
+}
+.hub-js_achievement img{
+    margin: 1px;
+}
+.hub-js_title_mobile{
+    margin-top: 32px;
+    width: 100%;
+    padding: 56px 16px;
+    display: none;
+}
+.hub-js_title_mobile p{
+    color: white;
+    font-size: 13px;
+
+}
+
 .hub-js_title{
     margin-top: 60px;
 }
@@ -669,10 +691,14 @@ header .heading .container .nav li a{
 .hub-js_content img{
     width: 96%;
 }
+.p-8{
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+}
 .hub-js_content_in{
     margin: auto;
-    display: table-cell;
-    vertical-align: middle;
+    /*display: table-cell;*/
+    /*vertical-align: middle;*/
     /*margin: auto;*/
     padding: 0 20px;
     width: 100%;
@@ -864,6 +890,9 @@ header .heading .container .nav li a{
 .global_orientation{
     margin-top: 40px;
 }
+.global_orientation_title p:first-child{
+    text-transform: uppercase;
+}
 .global_about_content{
     display: flex;
 }
@@ -871,6 +900,9 @@ header .heading .container .nav li a{
     padding-right: 8px;
     margin: auto;
 
+}
+.global_about{
+    margin-top: 40px;
 }
 .global_about_img{
     margin: auto;
@@ -1022,6 +1054,9 @@ header .heading .container .nav li a{
 .end_logo,.end_name,.end_social{
     text-align: center;
 }
+.end_social img{
+    padding: 4px;
+}
 .end_name{
     color: white;
     font-size: 18px;
@@ -1029,7 +1064,7 @@ header .heading .container .nav li a{
     margin: 16px 0;
 }
 .end_about{
-    text-align: center;
+    text-align: left;
 }
 .end_about p{
     font-size: 16px;
@@ -1051,17 +1086,21 @@ header .heading .container .nav li a{
     text-decoration: none;
     padding-left: 4px;
 }
+.end_about{
+    padding-left: 100px;
+}
 .end_line{
     display: none;
 }
 .company_category{
-    position: fixed;
+
 
     top: 0;
     left: 0;
     right: 0;
     background-color: white;
     z-index: 1001;
+    transition: 0.3s;
 }
 .company_category_in{
 
@@ -1090,6 +1129,9 @@ header .heading .container .nav li a{
 }
 /*<!--hq esport-->*/
 @media only screen  and (max-width: 1024px) {
+    .end_about{
+        padding-left: 0px;
+    }
     /*.activity_content_reverse{*/
     /*    flex-direction: column-reverse;*/
     /*}*/
@@ -1129,7 +1171,7 @@ header .heading .container .nav li a{
         display: block;
     }
     .background_content-header-img {
-        margin: 60px auto 16px auto;
+        margin: 40px auto 16px auto;
     }
     .ads_1_content_out{
         width: 100%;
@@ -1138,12 +1180,52 @@ header .heading .container .nav li a{
     .hub-js_content_in_img{
         display: none;
     }
+    /*.company_category{*/
+    /*    display: none;*/
+    /*}*/
+    .logo{
+        margin-top: -8px;
+    }
+    .logo img{
+       width: 68%;
+    }
     .company_category{
-        display: none;
+        overflow: scroll;
+    }
+    .company_category_in {
+        margin-top: 56px;
     }
 }
 
 @media only screen  and (max-width: 992px) {
+    .globalent_bg p:first-child {
+        font-size: 18px;
+
+    }
+    .hub-js_achievement_content_in p:first-child{
+        font-size: 13px;
+        font-weight: 500;
+        color: #000000;
+    }
+    .globalent_bg p {
+        font-size: 13px;
+        width: 100%;
+    }
+    .hub-js_content_in {
+        height: 125px;
+
+    }
+    .hub-js_title_mobile{
+
+        display: block;
+    }
+    .hub-js_title p:first-child{
+        display: none;
+    }
+    .p-m-8{
+        padding-right: 8px;
+        padding-left: 8px;
+    }
     .ikonix_partner_img {
         height: 60px;
     }
@@ -1494,9 +1576,37 @@ header .heading .container .nav li a{
         right: 10px;
 
     }
+    .global_orientation_title p{
+        text-align: center;
+    }
+    .global_orientation_line{
+        margin: 0 auto 20px auto ;
+
+    }
+
+    .global_orientation_title p:first-child{
+        font-size: 20px;
+
+    }
+    .global_about{
+        margin-top: 20px;
+    }
+    .hqesport_orientation_line {
+        width: 60px;
+
+    }
+    .hqesport_orientation_title p {
+        font-size: 13px;
+    }
 
 }
+.ikonix_partner_img img{
+    height: 100px;
+}
 @media (max-width: 480px) {
+    .ikonix_partner_img img{
+        height: 60px;
+    }
     .activity_content_reverse {
          flex-direction: column-reverse;
     }
